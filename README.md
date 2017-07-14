@@ -2,7 +2,7 @@
 
 Given a set of points of syrian cultural significance, sort them by their distance to the nearest neighbor location in order to remove possible duplicates from multiple data sources. Original, and sorted, data can be found in `data/`.
 
-Usage:
+## Usage
 
 ```bash
 # install dependency
@@ -14,4 +14,3 @@ python3 distance-sort.py
 ```
 
 This should work on any csv that has at least the following columns: `source_id`, `lat`, `long`. Adds the columns `nearest_neighbor` (the `source_id` of the closest location) and `nearest_neighbor_distance` (in kilometers).
- 
